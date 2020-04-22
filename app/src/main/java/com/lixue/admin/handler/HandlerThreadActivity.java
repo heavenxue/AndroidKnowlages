@@ -11,6 +11,13 @@ import com.lixue.admin.asmlifecycledemo.R;
 public class HandlerThreadActivity extends AppCompatActivity {
     private HandlerThread thread;
     private Handler handler;
+    private Handler mainHandler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            System.out.println("currentThread-----> " + Thread.currentThread());
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,5 +36,6 @@ public class HandlerThreadActivity extends AppCompatActivity {
         };
 
         handler.sendEmptyMessage(1);
+        mainHandler.sendEmptyMessage(1);
     }
 }
