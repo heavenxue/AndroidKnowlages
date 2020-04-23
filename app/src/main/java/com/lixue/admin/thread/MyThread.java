@@ -18,7 +18,7 @@ public class MyThread {
 
     public void setValue(int value) {
         synchronized(this) {
-            this.value = 1;
+            this.value ++;
         }
     }
 

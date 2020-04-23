@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.lixue.admin.imagesoptimization.LargeImagesActivity">
+        <activity android:name="com.lixue.admin.costomview.ImageBannerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.lixue.admin.imagesoptimization.PicturesWallActivity">
+        <activity android:name="com.lixue.admin.imagesoptimization.LargeImagesActivity">
 
         </activity>
-        <activity android:name="com.lixue.admin.imagesoptimization.PicturesActivity"></activity>
+        <activity android:name="com.lixue.admin.imagesoptimization.PicturesWallActivity"></activity>
+        <activity android:name="com.lixue.admin.imagesoptimization.PicturesActivity" />
         <activity android:name="com.lixue.admin.eventdispatch.EventDispatchActivity" />
         <activity android:name="com.lixue.admin.mvvm.MVVMActivity" />
         <activity android:name="com.lixue.admin.databinding.DataBindingActivity" />
@@ -31,11 +32,11 @@
         <activity android:name="com.lixue.admin.imagesoptimization.ImageDetailsActivity" />
         <activity android:name=".MainActivity" />
     </application>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>
