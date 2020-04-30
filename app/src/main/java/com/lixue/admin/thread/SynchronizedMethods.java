@@ -7,6 +7,11 @@ public class SynchronizedMethods {
 //    }
 
     private Object lock = new Object();
+    public void syncMethod(){
+        synchronized (lock){
+            //do something
+        }
+    }
 
     public static void main(String[] args){
         SynchronizedMethods s1 = new SynchronizedMethods();

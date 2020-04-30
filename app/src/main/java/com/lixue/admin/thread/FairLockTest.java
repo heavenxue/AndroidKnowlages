@@ -18,6 +18,7 @@ public class FairLockTest implements Runnable {
                 lock.unlock();
             }
         }
+
     }
 
     public static void main(String[] args){
