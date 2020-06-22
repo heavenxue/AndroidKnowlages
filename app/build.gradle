@@ -5,7 +5,9 @@ apply plugin: 'com.asm.lifecycles'
 buildscript {
     repositories {
         google()
+        mavenCentral()
         jcenter()
+        maven{url'https://jitpack.io'}
         //自定义插件maven地址
         maven { url '../asm_lifecycle_respo' }
     }
@@ -50,4 +52,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //ButterKnife
+    implementation 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
 }
