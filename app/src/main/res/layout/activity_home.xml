@@ -83,5 +83,17 @@
         android:layout_height="wrap_content"
         android:text="mvvm"
         tools:ignore="MissingConstraints"></Button>
+        <Button
+            android:id="@+id/btn_dagger2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dagger2"
+            tools:ignore="MissingConstraints"></Button>
+        <Button
+            android:id="@+id/btn_ndk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ndk"
+            tools:ignore="MissingConstraints"></Button>
     </LinearLayout>
 </ScrollView>

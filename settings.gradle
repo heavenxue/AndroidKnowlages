@@ -1,1 +1,2 @@
+include ':breakpad-build'
 include ':app', ':asm_lifecycle_plugin'

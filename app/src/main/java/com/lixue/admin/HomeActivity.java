@@ -8,12 +8,14 @@ import com.lixue.admin.animation.Main2Activity;
 import com.lixue.admin.asmlifecycledemo.MainActivity;
 import com.lixue.admin.asmlifecycledemo.R;
 import com.lixue.admin.costomview.ImageBannerActivity;
+import com.lixue.admin.dagger2.Dagger2Activity;
 import com.lixue.admin.databinding.DataBindingActivity;
 import com.lixue.admin.datastructure.AlgorithmActivity;
 import com.lixue.admin.eventdispatch.EventDispatchActivity;
 import com.lixue.admin.handler.HandlerThreadActivity;
 import com.lixue.admin.imagesoptimization.LargeImagesActivity;
 import com.lixue.admin.mvvm.MVVMActivity;
+import com.lixue.admin.ndk.MainNdkActivity;
 import com.lixue.admin.thread.ThreadActivity;
 
 import butterknife.OnClick;
@@ -30,7 +32,7 @@ public class HomeActivity extends BaseActivity {
         return R.layout.activity_home;
     }
     @OnClick({R.id.btn_anim,R.id.btn_asmlifecycle,R.id.btn_customview,R.id.btn_databinding,R.id.btn_datastructure,R.id.btn_eventdispatch
-    ,R.id.btn_handler,R.id.btn_picture,R.id.btn_mvvm,R.id.btn_thread})
+    ,R.id.btn_handler,R.id.btn_picture,R.id.btn_mvvm,R.id.btn_thread,R.id.btn_dagger2,R.id.btn_ndk})
     public void onClick(View view){
         int id = view.getId();
         switch (id){
@@ -63,6 +65,12 @@ public class HomeActivity extends BaseActivity {
                 break;
             case R.id.btn_thread:
                 startActivity(ThreadActivity.class);
+                break;
+            case R.id.btn_dagger2:
+                startActivity(Dagger2Activity.class);
+                break;
+            case R.id.btn_ndk:
+                startActivity(MainNdkActivity.class);
                 break;
         }
     }

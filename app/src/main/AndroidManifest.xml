@@ -9,23 +9,24 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:name="com.lixue.admin.dagger2.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.lixue.admin.datastructure.AlgorithmActivity"></activity>
+        <activity android:name="com.lixue.admin.dagger2.Dagger2Activity"></activity>
+        <activity android:name="com.lixue.admin.datastructure.AlgorithmActivity" />
         <activity android:name="com.lixue.admin.BaseActivity" />
-        <activity android:name="com.lixue.admin.HomeActivity" >
+        <activity android:name="com.lixue.admin.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.lixue.admin.costomview.ImageBannerActivity">
-        </activity>
+        <activity android:name="com.lixue.admin.costomview.ImageBannerActivity"></activity>
         <activity android:name="com.lixue.admin.imagesoptimization.LargeImagesActivity" />
         <activity android:name="com.lixue.admin.imagesoptimization.PicturesWallActivity" />
         <activity android:name="com.lixue.admin.imagesoptimization.PicturesActivity" />
@@ -39,6 +40,7 @@
         <activity android:name="com.lixue.admin.animation.Main2Activity" />
         <activity android:name="com.lixue.admin.imagesoptimization.ImageDetailsActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name="com.lixue.admin.ndk.MainNdkActivity"></activity>
     </application>
 
 </manifest>
