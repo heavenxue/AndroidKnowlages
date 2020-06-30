@@ -1,0 +1,6 @@
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/breakpad-core.dir
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/external/libbreakpad/CMakeFiles/edit_cache.dir
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/external/libbreakpad/CMakeFiles/rebuild_cache.dir
+/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/external/libbreakpad/CMakeFiles/breakpad.dir

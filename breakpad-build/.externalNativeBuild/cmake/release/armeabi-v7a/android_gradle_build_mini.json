@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/src/main/cpp/CMakeLists.txt",
+    "/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/src/main/cpp/external/libbreakpad/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/xiaoyezi/Documents/android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "breakpad-Release-armeabi-v7a": {
+      "artifactName": "breakpad",
+      "buildCommand": "/Users/xiaoyezi/Documents/android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a --target breakpad",
+      "abi": "armeabi-v7a",
+      "output": "/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a/external/libbreakpad/libbreakpad.a"
+    },
+    "breakpad-core-Release-armeabi-v7a": {
+      "artifactName": "breakpad-core",
+      "buildCommand": "/Users/xiaoyezi/Documents/android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/.externalNativeBuild/cmake/release/armeabi-v7a --target breakpad-core",
+      "abi": "armeabi-v7a",
+      "output": "/Users/xiaoyezi/Documents/lixueprj/AndroidKnowlages/breakpad-build/build/intermediates/cmake/release/obj/armeabi-v7a/libbreakpad-core.so"
+    }
+  }
+}
